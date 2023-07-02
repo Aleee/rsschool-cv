@@ -28,3 +28,7 @@ def str_to_int(text: Union[str, int]) -> Optional[int]:
     except (ValueError, TypeError):
         return None
 ```
+
+### Languages
+* Native: Russian, Belarussian
+* B2: English
