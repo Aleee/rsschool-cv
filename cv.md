@@ -11,3 +11,20 @@ Currently I work as an emergency department physician and attending cardiologist
 * Basic: VBA, JS, HTML, SQL, scikit-learn, Adobe InDesign
 * Intermediate: Python, PyQT5
 * Expert: ECG (not very applicable here though) 
+
+### Education
+* The Rolling Scopes Machine Learning Intro (2022)
+* Belarusian State Medical University (2015-2021)
+  - General Medicine
+* Belarusian State Economic University (2009-2013)
+  - Banking
+ 
+### Code Examples
+```
+from typing import Optional, Union
+def str_to_int(text: Union[str, int]) -> Optional[int]:
+    try:
+        return int(text)
+    except (ValueError, TypeError):
+        return None
+```
